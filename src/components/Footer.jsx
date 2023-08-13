@@ -16,8 +16,8 @@ const footerText ={
 
 const Footer = () => {
   return (
-    <footer className='border pt-4'>
-      <Container>
+    <footer className='border pt-4 fixed-bottom bg-light'>
+      <Container className='py-4'>
         <Row>
           <Col md={4}>
             <h3>Biz haqimizda</h3>
