@@ -42,7 +42,6 @@ const SideMenu = (props) => {
           <Nav.Link href="#functions" onClick={handleClick}>
             Funksiyalar
           </Nav.Link>
-          {/* Add more links as needed */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

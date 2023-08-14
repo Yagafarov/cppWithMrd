@@ -8,10 +8,12 @@ import '../App.css'
 const Tutorial = () => {
 
   const [isDivVisible, setDivVisible] = useState(true);
-
   const handleButtonClick = () => {
     setDivVisible(!isDivVisible);
   };
+
+
+  
 
   return (
     <div className='conOut'>
@@ -25,7 +27,7 @@ const Tutorial = () => {
               {/* Content for each section goes here */}
               <section className='conCpp'>
                 <h2 id="introduction">Kirish</h2>
-                <p>Welcome to the Introduction section of the tutorial.</p>
+                <p>Welcome to the Introduction section of the tutorial {window.location.pathname}.</p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur ullam, nulla inventore dolore tenetur et officia quae harum corrupti earum cumque eos excepturi, natus nihil nobis libero autem magni recusandae. Amet, architecto, odit explicabo maxime, doloribus quis qui animi aperiam sed soluta debitis. Repellendus ab fuga cumque minus odit aperiam praesentium voluptatem nisi dignissimos, debitis, quo dolorem. Quod voluptates, tempore unde placeat eum harum obcaecati libero. Debitis maxime minus, quia dolorum porro fugiat, sapiente, rem voluptatem accusamus facilis recusandae id! Distinctio repellendus placeat illum vitae eum, rerum minima facere illo expedita, quos nam nihil enim itaque dolorum aliquam fugiat.
                 </p>

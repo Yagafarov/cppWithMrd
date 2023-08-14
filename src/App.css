@@ -20,3 +20,19 @@
 .conCpp h2{
   padding: 25px 0 0 0;
 }
+
+@media (max-width: 990px) {
+  .hContent{
+    order: 2;
+    text-align: center;
+  }
+  .hContent Button{
+    width: 90%;
+  }
+  .hImg{
+    order: 1;
+  }
+  .home{
+    max-height: 100px;
+  }
+}
