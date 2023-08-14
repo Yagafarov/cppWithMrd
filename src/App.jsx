@@ -16,7 +16,7 @@ const Layout = () => {
   return (
     <>
       <NavbarM />
-      <Container className='conOut'>
+      <Container>
         <Outlet />
       </Container>
       <Footer />

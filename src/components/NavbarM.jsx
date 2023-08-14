@@ -10,7 +10,7 @@ const NavbarM = () => {
     <>
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
-        <Navbar.Brand href="/">CppWithMrd</Navbar.Brand>
+        <Navbar.Brand href="/" className='text-primary' >CppWithMrd</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

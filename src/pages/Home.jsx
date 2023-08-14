@@ -6,15 +6,17 @@ import hImg from '../assets/images/home.gif'
 
 const Home = () => {
   return (
-      <Row className='centerVer'>
+      <Row  className='conOut centerVer'>
         <Col>
-          <h1>Lorem ipsum dolor sit amet.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odit, provident dolores atque, suscipit rem nihil quidem sapiente maiores architecto ratione repellendus accusantium tempore ipsa laboriosam totam dolorum molestias vero?</p>
+          <h1 className='text-primary text-uppercase' >Dasturlashni o'rganish uchun </h1>
+          <p>
+            Turli xil algoritmlar va ularni c++ dasturlash tilida realizatsiya qilish, C++ dasturlash tili sintaksisi va hayot tarzingizni osonlashtira oladigan texnologiyalar haiqda bilishni istaysizmi?
+          </p>
           <Button variant="primary">Boshlash</Button>
         </Col>
         <Col>
           <div className="home">
-            <Image src={hImg} />
+            <Image src={hImg} className='img-fluid' />
           </div>
         </Col>
       </Row>
