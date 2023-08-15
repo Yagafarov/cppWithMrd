@@ -11,6 +11,7 @@ import About from './pages/About'
 import { Container } from 'react-bootstrap'
 
 import './App.css'
+import AdminM from './pages/AdminM'
 
 const Layout = () => {
   return (
@@ -50,7 +51,11 @@ const router = createBrowserRouter(
     },
     {
       path: '/login',
-      element: <Login />
+      element: <Login/>
+    },
+    {
+      path: '/admin',
+      element: <AdminM />
     },
   ]
 )
