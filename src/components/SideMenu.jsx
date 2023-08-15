@@ -69,7 +69,7 @@ const SideMenu = (props) => {
 
   return (
     <Navbar collapseOnSelect expand="lg">
-      <Navbar.Toggle aria-controls="side-menu-nav" className="mt-lg-5" onClick={handleClick}>
+      <Navbar.Toggle aria-controls="side-menu-nav" className="mt-lg-5 mt-3" onClick={handleClick}>
         Menu
       </Navbar.Toggle>
       <Navbar.Collapse id="side-menu-nav">

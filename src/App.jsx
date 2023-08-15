@@ -2,7 +2,6 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
 import Login from "./pages/Login"
 import Home from "./pages/Home"
-import Write from "./pages/Write"
 import NavbarM from './components/NavbarM'
 import Footer from "./components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -34,10 +33,6 @@ const router = createBrowserRouter(
         {
           path: '/',
           element: <Home />
-        },
-        {
-          path: '/write',
-          element: <Write />
         },
         {
           path: '/tutorial',

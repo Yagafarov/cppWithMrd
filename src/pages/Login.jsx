@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import {AiOutlineRollback} from 'react-icons/ai'
 const Login = () => {
@@ -69,7 +69,7 @@ const Login = () => {
               </Button>
             </Form>
             <div className=' my-3 text-center'>
-                <Link to={"/"} className='bg-light' style={{fontSize:"20px"}}>
+                <Link to={"/"} style={{fontSize:"20px"}}>
                 <AiOutlineRollback/>
                 </Link>
             </div>
