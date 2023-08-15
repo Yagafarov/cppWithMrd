@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
+import {AiOutlineRollback} from 'react-icons/ai'
 const Login = () => {
   const [loginData, setLoginData] = useState({
     username: '',
@@ -43,7 +44,7 @@ const Login = () => {
                   placeholder="Login"
                   value={loginData.username}
                   onChange={handleChange}
-                />
+                  />
               </Form.Group>
 
               <Form.Group controlId="formBasicPassword" className='mb-4'>
@@ -54,7 +55,7 @@ const Login = () => {
                   placeholder="Parol"
                   value={loginData.password}
                   onChange={handleChange}
-                />
+                  />
               </Form.Group>
 
               <Button
@@ -63,10 +64,15 @@ const Login = () => {
                 block
                 className='w-100'
                 onClick={handleLogin}
-              >
+                >
                 Kirish
               </Button>
             </Form>
+            <div className=' my-3 text-center'>
+                <Link to={"/"} className='bg-light' style={{fontSize:"20px"}}>
+                <AiOutlineRollback/>
+                </Link>
+            </div>
           </Col>
         </Row>
       </Container>
